@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)showName:(id)sender
+{
+    [nameLabel setText:@"My name is kevin!"];
+}
+
 @end
